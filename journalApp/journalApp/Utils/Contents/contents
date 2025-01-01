@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="NO" userDefinedModelVersionIdentifier="">
+    <entity name="TradeEntity" representedClassName="TradeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="confidence" attributeType="String"/>
+        <attribute name="cryptoPair" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="emotions" optional="YES" attributeType="String"/>
+        <attribute name="entryPrice" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="exitPrice" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fees" attributeType="Double" defaultValueString="0.1" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="leverage" attributeType="Double" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="marketCondition" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="quantity" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="setupQuality" attributeType="String"/>
+        <attribute name="side" attributeType="String"/>
+        <attribute name="stopLoss" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="strategy" optional="YES" attributeType="String"/>
+        <attribute name="takeProfit" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timeFrame" attributeType="String"/>
+    </entity>
+</model>
+
